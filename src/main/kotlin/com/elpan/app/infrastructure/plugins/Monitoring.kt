@@ -1,4 +1,4 @@
-package com.elpan.plugins
+package com.elpan.app.infrastructure.plugins
 
 import io.ktor.server.application.*
 import io.ktor.server.plugins.callloging.*

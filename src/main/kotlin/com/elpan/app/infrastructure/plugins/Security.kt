@@ -1,4 +1,4 @@
-package com.elpan.plugins
+package com.elpan.app.infrastructure.plugins
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm

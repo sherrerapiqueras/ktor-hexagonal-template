@@ -1,7 +1,9 @@
 val ktorVersion: String by project
 val kotlinVersion: String by project
+val kotlinxDatetimeVersion: String by project
 val logbackVersion: String by project
 val logbackJsonVersion: String by project
+val mongoDriverVersion: String by project
 
 plugins {
     kotlin("jvm") version "1.9.23"
@@ -34,6 +36,11 @@ dependencies {
     implementation("io.ktor:ktor-server-auth-jvm")
     implementation("io.ktor:ktor-server-auth-jwt-jvm")
     implementation("io.ktor:ktor-server-netty-jvm")
+
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:$kotlinxDatetimeVersion")
+
+    implementation("org.mongodb:mongodb-driver-kotlin-coroutine:$mongoDriverVersion")
+    implementation("org.mongodb:bson-kotlinx:$mongoDriverVersion")
 
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
     implementation("ch.qos.logback.contrib:logback-json-classic:$logbackJsonVersion")

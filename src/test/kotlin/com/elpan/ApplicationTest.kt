@@ -1,6 +1,6 @@
 package com.elpan
 
-import com.elpan.plugins.configureRouting
+import com.elpan.app.infrastructure.plugins.configureRouting
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
