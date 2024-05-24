@@ -1,14 +1,14 @@
-val ktorVersion: String by project
-val kotlinVersion: String by project
-val kotlinxDatetimeVersion: String by project
-val logbackVersion: String by project
-val logbackJsonVersion: String by project
-val mongoDriverVersion: String by project
+val ktorVersion by extra { "2.3.11" }
+val kotlinVersion by extra { "2.0.0" }
+val kotlinxDatetimeVersion by extra { "0.5.0" }
+val mongoDriverVersion by extra { "5.1" }
+val logbackVersion by extra { "1.5.6" }
+val logbackJsonVersion by extra { "0.1.5" }
 
 plugins {
-    kotlin("jvm") version "1.9.23"
-    id("io.ktor.plugin") version "2.3.9"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.23"
+    kotlin("jvm") version "2.0.0"
+    id("io.ktor.plugin") version "2.3.11"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.0.0"
 }
 
 group = "com.elpan"
