@@ -1,7 +1,7 @@
 val ktorVersion by extra { "2.3.11" }
 val kotlinVersion by extra { "2.0.0" }
 val kotlinxDatetimeVersion by extra { "0.5.0" }
-val mongoDriverVersion by extra { "5.1" }
+val mongoDriverVersion by extra { "5.1.0" }
 val logbackVersion by extra { "1.5.6" }
 val logbackJsonVersion by extra { "0.1.5" }
 
